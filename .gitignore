@@ -1,3 +1,5 @@
 vendor/
+test-site/
 grumphp.yml
+behat.yml
 composer.lock

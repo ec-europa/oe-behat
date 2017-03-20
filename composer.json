@@ -8,16 +8,14 @@
     "drupal/drupal-extension": "dev-master#8d2eea9",
     "beberlei/assert": "^2.7",
     "peridot-php/leo": "~1.0",
-    "friends-of-behat/context-service-extension": "^0.3.0",
-    "friends-of-behat/service-container-extension": "^0.3.0"
+    "friends-of-behat/context-service-extension": "^0.3.0"
   },
   "require-dev": {
     "ec-europa/poc-code-review": "*"
   },
   "autoload": {
     "psr-4": {
-      "Europa\\Drupal\\": "./src/",
-      "Europa\\Drupal\\Tests\\": "./tests/scr/"
+      "Europa\\Drupal\\": "./src/"
     }
   },
   "repositories": [
