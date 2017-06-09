@@ -1,13 +1,13 @@
 <?php
 
-namespace Europa\Drupal\Driver\Cores;
+namespace EC\OpenEuropa\Drupal\Driver\Cores;
 
 use Drupal\Driver\Cores\CoreInterface as OriginalCoreInterface;
 
 /**
  * Interface CoreInterface.
  *
- * @package Europa\Drupal\Driver\Cores
+ * @package EC\OpenEuropa\Drupal\Driver\Cores
  */
 interface CoreInterface extends OriginalCoreInterface {
 

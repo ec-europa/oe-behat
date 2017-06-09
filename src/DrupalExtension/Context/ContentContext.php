@@ -1,13 +1,13 @@
 <?php
 
-namespace Europa\Drupal\DrupalExtension\Context;
+namespace EC\OpenEuropa\Drupal\DrupalExtension\Context;
 
 use Behat\Behat\Context\SnippetAcceptingContext;
 
 /**
  * Class ContentContext.
  *
- * @package Europa\Drupal\DrupalExtension\Context
+ * @package EC\OpenEuropa\Drupal\DrupalExtension\Context
  */
 class ContentContext extends RawDrupalContext implements SnippetAcceptingContext {
 

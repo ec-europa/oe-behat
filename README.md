@@ -1,3 +1,3 @@
-# Behat component
+# OpenEuropa Behat component
 
-[![Build Status](https://travis-ci.com/ec-europa/poc-behat.svg?token=dqSmBxPQnRgBZvpCZAqo&branch=master)](https://travis-ci.com/ec-europa/poc-behat)
+[![Build Status](https://travis-ci.com/ec-europa/oe-behat.svg?token=dqSmBxPQnRgBZvpCZAqo&branch=master)](https://travis-ci.com/ec-europa/oe-behat)

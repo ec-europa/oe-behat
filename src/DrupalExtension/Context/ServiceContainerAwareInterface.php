@@ -1,13 +1,13 @@
 <?php
 
-namespace Europa\Drupal\DrupalExtension\Context;
+namespace EC\OpenEuropa\Drupal\DrupalExtension\Context;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 /**
  * Interface ServiceContainerAwareInterface.
  *
- * @package Europa\Drupal\DrupalExtension\Context
+ * @package EC\OpenEuropa\Drupal\DrupalExtension\Context
  */
 interface ServiceContainerAwareInterface {
 

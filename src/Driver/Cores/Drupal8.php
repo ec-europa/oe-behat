@@ -1,6 +1,6 @@
 <?php
 
-namespace Europa\Drupal\Driver\Cores;
+namespace EC\OpenEuropa\Drupal\Driver\Cores;
 
 use Assert\Assert;
 use Drupal\Driver\Cores\Drupal8 as OriginalDrupal8;
@@ -8,7 +8,7 @@ use Drupal\Driver\Cores\Drupal8 as OriginalDrupal8;
 /**
  * Drupal8 driver.
  *
- * @package Europa\Drupal\Driver\Cores
+ * @package EC\OpenEuropa\Drupal\Driver\Cores
  */
 class Drupal8 extends OriginalDrupal8 implements CoreInterface {
 

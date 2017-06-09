@@ -1,6 +1,6 @@
 parameters:
   # Class responsible to inject service container instance in all contexts.
-  drupal.behat.context_initializer.service_container.class: Europa\Drupal\DrupalExtension\Context\Initializer\ServiceContainerInitializer
+  drupal.behat.context_initializer.service_container.class: EC\OpenEuropa\Drupal\DrupalExtension\Context\Initializer\ServiceContainerInitializer
 
 services:
   drupal.behat.context_initializer.service_container:

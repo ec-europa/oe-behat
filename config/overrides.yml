@@ -1,3 +1,3 @@
 parameters:
   # Overrides Drupal Extension Drupal 8 core class.
-  drupal.driver.cores.8.class: Europa\Drupal\Driver\Cores\Drupal8
+  drupal.driver.cores.8.class: EC\OpenEuropa\Drupal\Driver\Cores\Drupal8

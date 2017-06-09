@@ -1,6 +1,6 @@
 <?php
 
-namespace Europa\Drupal\DrupalExtension\ServiceContainer;
+namespace EC\OpenEuropa\Drupal\DrupalExtension\ServiceContainer;
 
 use Drupal\DrupalExtension\ServiceContainer\DrupalExtension as OriginalDrupalExtension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
@@ -10,7 +10,7 @@ use Symfony\Component\Config\FileLocator;
 /**
  * Class DrupalExtension.
  *
- * @package Europa\Drupal\DrupalExtension\ServiceContainer
+ * @package EC\OpenEuropa\Drupal\DrupalExtension\ServiceContainer
  */
 class DrupalExtension extends OriginalDrupalExtension {
 

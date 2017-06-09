@@ -1,6 +1,6 @@
 {
-  "name": "ec-europa/poc-behat",
-  "description": "Drupal 8 proof of concept: Behat component.",
+  "name": "ec-europa/oe-behat",
+  "description": "OpenEuropa Behat component.",
   "license": "EUPL-1.1",
   "minimum-stability": "dev",
   "prefer-stable": true,
@@ -10,17 +10,11 @@
     "peridot-php/leo": "~1.0"
   },
   "require-dev": {
-    "ec-europa/poc-code-review": "*"
+    "ec-europa/oe-code-review": "*"
   },
   "autoload": {
     "psr-4": {
-      "Europa\\Drupal\\": "./src/"
+      "EC\\OpenEuropa\\Drupal\\": "./src/"
     }
-  },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/ec-europa/poc-code-review.git"
-    }
-  ]
+  }
 }

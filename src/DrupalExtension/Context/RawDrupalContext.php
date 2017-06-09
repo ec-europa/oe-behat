@@ -1,6 +1,6 @@
 <?php
 
-namespace Europa\Drupal\DrupalExtension\Context;
+namespace EC\OpenEuropa\Drupal\DrupalExtension\Context;
 
 use Behat\Behat\Context\SnippetAcceptingContext;
 use Drupal\DrupalExtension\Context\RawDrupalContext as OriginalRawDrupalContext;
@@ -9,7 +9,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 /**
  * Class RawDrupalContext.
  *
- * @package Europa\Drupal\DrupalExtension\Context
+ * @package EC\OpenEuropa\Drupal\DrupalExtension\Context
  */
 class RawDrupalContext extends OriginalRawDrupalContext implements ServiceContainerAwareInterface, SnippetAcceptingContext {
 
@@ -37,7 +37,7 @@ class RawDrupalContext extends OriginalRawDrupalContext implements ServiceContai
   /**
    * Get current Drupal core.
    *
-   * @return \Europa\Drupal\Driver\Cores\CoreInterface|\Drupal\Driver\Cores\CoreInterface
+   * @return \EC\OpenEuropa\Drupal\Driver\Cores\CoreInterface|\Drupal\Driver\Cores\CoreInterface
    *   Drupal core object instance.
    */
   public function getCore() {
